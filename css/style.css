@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=News+Cycle|Libre+Baskerville|Libre+Baskerville|Reem+Kufi');
+html, body{
+    
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    
+    font-family: sans-serif;
+    background-image: url("https://images5.alphacoders.com/342/342093.jpg") ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: rgba(44, 77, 200, 0.4)
+}
+
+#wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    position: relative;
+    max-width: 1100px;
+    max-height: 1737px;
+}
+
+header{
+    padding: .5em 2%;
+    background-color: rgba(180, 220, 255, 0.4);
+    border-radius: 20px 20px 0px 0px;
+}
+
+h1{
+    margin: 0;
+    padding: .5em 2%;
+    font-family: Libre Baskerville;
+}
+
+h2{
+    font-family: Reem Kufi;
+}
+
+p{
+    font-family: News Cycle;
+    text-decoration-color: black;
+}
+
+/* Elementen naast elkaar */
+
+.wrapper__rij{
+    overflow: auto;
+}
+.wrapper__rij>div{
+    float: left;
+    padding: 0 3%;
+    box-sizing: border-box;
+    border-left: dotted 5px #47a;
+}
+
+.wrapper__rij>div:first-child{
+    border-left: 0;
+}
+
+.wrapper__rij__half{
+    width: 50%;
+   
+}
+
+.wrapper__rij__derde{
+    width: 33.33%;
+}
+
+.wrapper__rij__kwart{
+    width: 25%;
+}
+#wrapper__rij__derde--apart{
+    background-color: #47a;
+    color: #fff;
+    padding: 40px;
+    width: 210px;
+    border-radius: 190px;
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    box-sizing: content-box;
+    text-align: center;
+    transform: rotate(10deg);
+}
+footer{
+    background-color: #333;
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+footer p{
+    margin: 0;
+    padding: 2em 15%;
+    width: 50%;
+    
+}
+a{
+    color: black;
+}
+
+footer>div{
+    float: right;
+    width: 15%;
+    margin: 0;
+}
